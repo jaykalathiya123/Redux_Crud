@@ -60,7 +60,7 @@ const EmployeeForm = () => {
                             name="name"
                             value={formInput.name}
                             onChange={handleChange}
-                            placeholder="John Doe"
+                            placeholder="Enter Your Name"
                             required
                         />
                     </div>
@@ -74,7 +74,7 @@ const EmployeeForm = () => {
                             name="email"
                             value={formInput.email}
                             onChange={handleChange}
-                            placeholder="john.doe@company.com"
+                            placeholder="Eenter your Email"
                             required
                         />
                     </div>

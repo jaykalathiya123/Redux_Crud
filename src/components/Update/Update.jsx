@@ -54,7 +54,7 @@ const Update = () => {
                             name="name"
                             value={updateInput.name}
                             onChange={handleChange}
-                            placeholder="John Doe"
+                            placeholder="Enter Your Name"
                             required
                         />
                     </div>
@@ -68,7 +68,7 @@ const Update = () => {
                             name="email"
                             value={updateInput.email}
                             onChange={handleChange}
-                            placeholder="john.doe@company.com"
+                            placeholder="Enter Your Email"
                             required
                         />
                     </div>

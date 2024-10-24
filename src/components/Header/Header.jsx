@@ -12,20 +12,20 @@ const Header = () => {
         </h1>
 
         <ul className="flex space-x-8">
-          <li>
-            <Link to="/" className="hover:underline hover:text-gray-200 transition duration-200 text-lg">
+          <li className="">
+            <Link to="/" className=" p-4 transition ease-in-out delay-150 rounded-[10px] hover:text-[#000000] hover:bg-[#00e1ff] duration-200 text-lg">
               Dashboard
             </Link>
           </li>
 
           <li>
-            <Link to="/view-data" className="hover:underline hover:text-gray-200 transition duration-200 text-lg">
+            <Link to="/view-data" className=" p-4 transition ease-in-out delay-150 rounded-[10px] hover:text-[#000000] hover:bg-[#ff6600] duration-200 text-lg">
               Employee List
             </Link>
           </li>
 
           <li>
-            <Link to="/employeeView/:id" className="hover:underline hover:text-gray-200 transition duration-200 text-lg">
+            <Link to="/employeeView/:id" className=" p-4 transition ease-in-out delay-150 rounded-[10px] hover:text-[#000000] hover:bg-[#48ff00] duration-200 text-lg">
               Employee Details
             </Link>
           </li>
